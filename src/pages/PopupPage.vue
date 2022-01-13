@@ -14,7 +14,7 @@
           type="text"
           v-model="FormValues.excluded_url"
           label="Excluded URL"
-          hint="Included URL"
+          hint="Excluded URL"
         />
         <!-- <q-input v-model="url" filled type="url" hint="URL" /> -->
         <q-input

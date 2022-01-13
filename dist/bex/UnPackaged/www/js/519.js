@@ -1,7 +1,7 @@
 "use strict";
-(self["webpackChunkcustom_html_in_pages"] = self["webpackChunkcustom_html_in_pages"] || []).push([[342],{
+(self["webpackChunkcustom_html_in_pages"] = self["webpackChunkcustom_html_in_pages"] || []).push([[519],{
 
-/***/ 8342:
+/***/ 1519:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 // ESM COMPAT FLAG
@@ -16,7 +16,7 @@ __webpack_require__.d(__webpack_exports__, {
 var runtime_core_esm_bundler = __webpack_require__(3673);
 // EXTERNAL MODULE: ./node_modules/@vue/runtime-dom/dist/runtime-dom.esm-bundler.js
 var runtime_dom_esm_bundler = __webpack_require__(8880);
-;// CONCATENATED MODULE: ./node_modules/@quasar/app/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/ts-loader/index.js??clonedRuleSet-3.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[4]!./node_modules/@quasar/app/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/pages/PopupPage.vue?vue&type=template&id=6c48244c&ts=true
+;// CONCATENATED MODULE: ./node_modules/@quasar/app/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/ts-loader/index.js??clonedRuleSet-3.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[4]!./node_modules/@quasar/app/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/pages/PopupPage.vue?vue&type=template&id=4db0c1e8&ts=true
 
 const _hoisted_1 = {
     class: "q-pa-md",
@@ -53,7 +53,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
                             modelValue: _ctx.FormValues.excluded_url,
                             "onUpdate:modelValue": _cache[1] || (_cache[1] = ($event) => ((_ctx.FormValues.excluded_url) = $event)),
                             label: "Excluded URL",
-                            hint: "Included URL"
+                            hint: "Excluded URL"
                         }, null, 8, ["modelValue"]),
                         (0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_input, {
                             modelValue: _ctx.FormValues.content,
@@ -105,7 +105,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     }));
 }
 
-;// CONCATENATED MODULE: ./src/pages/PopupPage.vue?vue&type=template&id=6c48244c&ts=true
+;// CONCATENATED MODULE: ./src/pages/PopupPage.vue?vue&type=template&id=4db0c1e8&ts=true
 
 // EXTERNAL MODULE: ./node_modules/@vue/reactivity/dist/reactivity.esm-bundler.js
 var reactivity_esm_bundler = __webpack_require__(1959);
