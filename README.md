@@ -1,4 +1,4 @@
-# Static HTML in Pages (static_html_in_page)
+# Custom HTML in Pages (custom-html-in-pages)
 
 Chrome Extension
 
