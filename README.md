@@ -7,8 +7,6 @@
 [![PRs welcome](https://img.shields.io/badge/PRs-welcome-ff69b4.svg)](https://github.com/codeeshop-oc/custom-html-in-pages/issues?&q=is%3Aissue+is%3Aopen)
 
 
-Chrome Extension
-
 ## Install the dependencies
 ```bash
 yarn install
