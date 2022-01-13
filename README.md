@@ -12,7 +12,7 @@
 yarn install
 ```
 
-### Start the app in development mode (hot-code reloading, error reporting, etc.)
+### 🚀 Start the app in development mode (hot-code reloading, error reporting, etc.)
 ```bash
 quasar dev -m bex
 ```
@@ -20,7 +20,7 @@ quasar dev -m bex
 Follow the development procedure for chrome and firefox described here:
 [Quasar BEX Build Commands](https://quasar.dev/quasar-cli/developing-browser-extensions/build-commands)
 
-### Build the app for production
+### 🚀 Build the app for production
 ```bash
 quasar build -m bex
 ```
@@ -28,13 +28,12 @@ quasar build -m bex
 Follow the production building tutorial here:
 [Quasar Production BEX Build Commands]](https://quasar.dev/quasar-cli/developing-browser-extensions/build-commands#Building-for-Production)
 
-## What works as of now
+## Working
 Current tested in Chrome only. After installation you can browse to any URL and see the extension working.
 - A Popup will open when click on the Chrome Extension Icon
 - Fill the fields
 
-
-### All Props
+### 🚀 All Fields
 
 | Field name         	 | Description                                                         		 | Type    | Values                  
 | ---------------------- | --------------------------------------------------------------------------| ------- | ---------------------
@@ -44,7 +43,7 @@ Current tested in Chrome only. After installation you can browse to any URL and 
 
 - See the result by inspecting ( Ctrl + Shift + F12 ) and check under head section.
 
-### Customize the configuration
+### 🚀 Customize the configuration
 See [Configuring quasar.conf.js](https://quasar.dev/quasar-cli/quasar-conf-js).
 
 
