@@ -1,6 +1,6 @@
 {
-  "name": "Static HTML in Page",
-  "description": "Add Static HTML in Pages",
+  "name": "Custom HTML in Pages",
+  "description": "Adding Custom HTML code in Single Page, All Pages or Domains",
   "version": "1.0.0",
   "manifest_version": 2,
   "icons": {
