@@ -2,7 +2,7 @@
 
 > Chrome Extension for adding Custom HTML code in Single Page, All Pages or Domains
 
-[![Chrome](https://img.shields.io/badge/npm-1.0.0-blue)](https://github.com/codeeshop-oc/custom-html-in-pages/blob/main/LICENSE)
+[![Chrome](https://img.shields.io/badge/Chrome%20Extension-1.0.0-blue)](https://github.com/codeeshop-oc/custom-html-in-pages/blob/main/LICENSE)
 [![license](https://img.shields.io/badge/license-MIT-green)](https://github.com/codeeshop-oc/custom-html-in-pages/blob/main/LICENSE)
 [![PRs welcome](https://img.shields.io/badge/PRs-welcome-ff69b4.svg)](https://github.com/codeeshop-oc/custom-html-in-pages/issues?&q=is%3Aissue+is%3Aopen)
 
