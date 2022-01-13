@@ -31,9 +31,9 @@ Current tested in Chrome only. After installation you can browse to any URL and 
 
 ### All Props
 
-| Prop name         	 | Description                                                         		 | Type    | Values                  
+| Field name         	 | Description                                                         		 | Type    | Values                  
 | ---------------------- | --------------------------------------------------------------------------| ------- | ---------------------
-| Included URL      	 | Enter the URL in which you want to insert your code in head section 		 | String  | all                  
+| Included URL      	 | Enter the URL in which you want to insert your code in head section 		 | String  | https://google.com                   		  Leave this field blank if you want for all pages
 | Excluded URL      	 | Enter the URL in which you dont want to insert your code in head section  | String  | https://google.com       					  comma separated for multiple values 
 | Script and tags to add | Add the script tags you want to add in head section  					 | String  | <script src="https://unpkg.com/vue-full-autocomplete" async="true"></script>       
 
