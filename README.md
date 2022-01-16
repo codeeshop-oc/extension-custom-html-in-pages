@@ -25,6 +25,9 @@ Follow the development procedure for chrome and firefox described here:
 quasar build -m bex
 ```
 
+Soon will be published in Google Chrome Store
+[![Chrome Store Image](https://scontent.fagr1-1.fna.fbcdn.net/v/t39.30808-6/271935305_1282049852263485_6073432709807330925_n.png?_nc_cat=102&ccb=1-5&_nc_sid=730e14&_nc_ohc=0MzBP2FMguMAX-KsxNS&_nc_ht=scontent.fagr1-1.fna&oh=00_AT_liIuXk3tgHNb3y3LSCm0wy33YjzGvbNKKyF0uPxEDqQ&oe=61E9280F)]
+
 Follow the production building tutorial here:
 [Quasar Production BEX Build Commands]](https://quasar.dev/quasar-cli/developing-browser-extensions/build-commands#Building-for-Production)
 
