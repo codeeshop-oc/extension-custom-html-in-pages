@@ -2,7 +2,7 @@
 
 > Chrome Extension for adding Custom HTML code in Single Page, All Pages or Domains
 
-[![Chrome](https://img.shields.io/badge/Chrome%20Extension-1.0.0-blue)](https://github.com/codeeshop-oc/custom-html-in-pages/blob/main/LICENSE)
+[![Chrome](https://img.shields.io/badge/Chrome%20Extension-1.0.0-blue)](https://chrome.google.com/webstore/detail/custom-html-in-pages/pnkdifmjnenfamecmpipdaaokhoeihlm)
 [![license](https://img.shields.io/badge/license-MIT-green)](https://github.com/codeeshop-oc/custom-html-in-pages/blob/main/LICENSE)
 [![PRs welcome](https://img.shields.io/badge/PRs-welcome-ff69b4.svg)](https://github.com/codeeshop-oc/custom-html-in-pages/issues?&q=is%3Aissue+is%3Aopen)
 
@@ -25,8 +25,8 @@ Follow the development procedure for chrome and firefox described here:
 quasar build -m bex
 ```
 
-Soon will be published in Google Chrome Store
-[![Chrome Store Image](https://scontent.fagr1-1.fna.fbcdn.net/v/t39.30808-6/271935305_1282049852263485_6073432709807330925_n.png?_nc_cat=102&ccb=1-5&_nc_sid=730e14&_nc_ohc=0MzBP2FMguMAX-KsxNS&_nc_ht=scontent.fagr1-1.fna&oh=00_AT_liIuXk3tgHNb3y3LSCm0wy33YjzGvbNKKyF0uPxEDqQ&oe=61E9280F)]
+Published in Google Chrome Store
+[![Chrome Store Image](https://ibb.co/Mc72Zg0)]
 
 Follow the production building tutorial here:
 [Quasar Production BEX Build Commands]](https://quasar.dev/quasar-cli/developing-browser-extensions/build-commands#Building-for-Production)
