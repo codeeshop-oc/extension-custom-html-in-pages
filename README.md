@@ -26,7 +26,7 @@ quasar build -m bex
 ```
 
 Published in Google Chrome Store
-[![Chrome Store Image](https://ibb.co/Mc72Zg0)]
+[![Chrome Store Image](https://postimg.cc/GHDs6X4Q)]
 
 Follow the production building tutorial here:
 [Quasar Production BEX Build Commands]](https://quasar.dev/quasar-cli/developing-browser-extensions/build-commands#Building-for-Production)
