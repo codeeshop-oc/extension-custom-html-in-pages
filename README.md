@@ -6,6 +6,8 @@
 [![license](https://img.shields.io/badge/license-MIT-green)](https://github.com/codeeshop-oc/custom-html-in-pages/blob/main/LICENSE)
 [![PRs welcome](https://img.shields.io/badge/PRs-welcome-ff69b4.svg)](https://github.com/codeeshop-oc/custom-html-in-pages/issues?&q=is%3Aissue+is%3Aopen)
 
+### Published in Google Chrome Store
+![Chrome Store Image](https://i.postimg.cc/28cFbJmP/Screenshot-from-2022-01-18-19-29-25.png)
 
 ## Install the dependencies
 ```bash
@@ -24,9 +26,6 @@ Follow the development procedure for chrome and firefox described here:
 ```bash
 quasar build -m bex
 ```
-
-Published in Google Chrome Store
-![Chrome Store Image](https://i.postimg.cc/28cFbJmP/Screenshot-from-2022-01-18-19-29-25.png)
 
 Follow the production building tutorial here:
 [Quasar Production BEX Build Commands]](https://quasar.dev/quasar-cli/developing-browser-extensions/build-commands#Building-for-Production)
