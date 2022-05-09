@@ -215,7 +215,7 @@ const routes = [
         path: '/',
         component: () => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(553)]).then(__webpack_require__.bind(__webpack_require__, 1553)),
         children: [
-            { path: '/popup', component: () => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(519)]).then(__webpack_require__.bind(__webpack_require__, 1519)) },
+            { path: '/popup', component: () => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(434)]).then(__webpack_require__.bind(__webpack_require__, 1434)) },
         ]
     }
 ];

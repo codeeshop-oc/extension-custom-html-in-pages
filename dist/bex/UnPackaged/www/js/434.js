@@ -1,7 +1,7 @@
 "use strict";
-(self["webpackChunkcustom_html_in_pages"] = self["webpackChunkcustom_html_in_pages"] || []).push([[519],{
+(self["webpackChunkcustom_html_in_pages"] = self["webpackChunkcustom_html_in_pages"] || []).push([[434],{
 
-/***/ 1519:
+/***/ 1434:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 // ESM COMPAT FLAG
@@ -16,7 +16,7 @@ __webpack_require__.d(__webpack_exports__, {
 var runtime_core_esm_bundler = __webpack_require__(3673);
 // EXTERNAL MODULE: ./node_modules/@vue/runtime-dom/dist/runtime-dom.esm-bundler.js
 var runtime_dom_esm_bundler = __webpack_require__(8880);
-;// CONCATENATED MODULE: ./node_modules/@quasar/app/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/ts-loader/index.js??clonedRuleSet-3.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[4]!./node_modules/@quasar/app/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/pages/PopupPage.vue?vue&type=template&id=4db0c1e8&ts=true
+;// CONCATENATED MODULE: ./node_modules/@quasar/app/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/ts-loader/index.js??clonedRuleSet-3.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[4]!./node_modules/@quasar/app/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/pages/PopupPage.vue?vue&type=template&id=6c653f38&ts=true
 
 const _hoisted_1 = {
     class: "q-pa-md",
@@ -105,7 +105,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     }));
 }
 
-;// CONCATENATED MODULE: ./src/pages/PopupPage.vue?vue&type=template&id=4db0c1e8&ts=true
+;// CONCATENATED MODULE: ./src/pages/PopupPage.vue?vue&type=template&id=6c653f38&ts=true
 
 // EXTERNAL MODULE: ./node_modules/@vue/reactivity/dist/reactivity.esm-bundler.js
 var reactivity_esm_bundler = __webpack_require__(1959);
@@ -127,7 +127,7 @@ var use_quasar = __webpack_require__(8825);
             excluded_url: '',
         });
         function defaultValues() {
-            if (FormValues.value.included_url.trim() == '') {
+            if (['', 'https://', 'http://'].includes(FormValues.value.included_url.trim())) {
                 FormValues.value.included_url = 'all';
             }
         }
@@ -157,6 +157,10 @@ var use_quasar = __webpack_require__(8825);
             },
             onSubmit() {
                 defaultValues();
+                FormValues.value.included_url = FormValues.value.included_url.trim();
+                if (FormValues.value.included_url && FormValues.value.included_url.substr(0, 4) != 'http') {
+                    FormValues.value.included_url = 'https://' + FormValues.value.included_url;
+                }
                 FormValues.value.content = `<div class="custom_html_in_pages">` + FormValues.value.content + `</div>`;
                 LocalStorage/* default.set */.Z.set(FormValues.value.included_url, FormValues.value);
                 $q.notify({

@@ -4,7 +4,7 @@
 // More info: https://quasar.dev/quasar-cli/developing-browser-extensions/background-hooks
 
 export default function attachBackgroundHooks(bridge /* , allActiveConnections */ ) {
-   
+
   chrome.tabs.query({
     active: true
   }, function(tabs) {
@@ -17,7 +17,7 @@ export default function attachBackgroundHooks(bridge /* , allActiveConnections *
   });
 
   function init(current_active_url) {
-    
+
     const QuasarStorageToString = (val) => {
       return val.substring(9)
     }
@@ -30,7 +30,7 @@ export default function attachBackgroundHooks(bridge /* , allActiveConnections *
       return StringToJSON(QuasarStorageToString(localStorage.getItem(key)))
     }
 
-    const isExcluded = (current_url, excluded_urls) => {      
+    const isExcluded = (current_url, excluded_urls) => {
       let new_excluded_urls = excluded_urls.split(',')
       let isExcludedBool = false
       for (var i = new_excluded_urls.length - 1; i >= 0; i--) {
@@ -46,10 +46,11 @@ export default function attachBackgroundHooks(bridge /* , allActiveConnections *
     const getOriginFromURL = url => {
       let resp = ''
       try {
-        if(!['', 'all'].includes(url)) {          
-          const myUrl = new URL(url)    
+        if(!['', 'all'].includes(url)) {
+          const myUrl = new URL(url)
           resp = myUrl['origin']
         }
+        console.log(resp, 'resp')
       } catch(err) {
         console.warn(err)
       }
@@ -60,12 +61,11 @@ export default function attachBackgroundHooks(bridge /* , allActiveConnections *
       let curr_origin = getOriginFromURL(url)
 
       let found = false
-      let data = false        
+      let data = false
       for (var i = 0; i < localStorage.length; i++) {
-        data = getStorageValue(localStorage.key(i))        
+        data = getStorageValue(localStorage.key(i))
         // data.included_url
         let new_origin = getOriginFromURL(data.included_url)
-
         if (data.included_url != 'all' && (data.included_url == url || new_origin == curr_origin)) {
           found = true
           break;
@@ -86,10 +86,14 @@ export default function attachBackgroundHooks(bridge /* , allActiveConnections *
             current_active_url: current_active_url
           }
         });
+        // console.debug(data, 'here now')
       }
-      // switch()
     }
 
-    checkURLScriptToAdd(current_active_url)
+    const removeUnwanted = url => {
+      return url = url.replace('www.', '')
+    }
+
+    checkURLScriptToAdd(removeUnwanted(current_active_url))
   }
 }
