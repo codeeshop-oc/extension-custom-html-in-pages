@@ -59,7 +59,7 @@ export default defineComponent({
     });
 
     function defaultValues() {
-      if (FormValues.value.included_url.trim() == '') {
+      if (['', 'https://', 'http://'].includes(FormValues.value.included_url.trim())) {
         FormValues.value.included_url = 'all'
       }
     }
@@ -93,6 +93,12 @@ export default defineComponent({
 
       onSubmit() {
         defaultValues()
+
+        FormValues.value.included_url = FormValues.value.included_url.trim()
+
+        if(FormValues.value.included_url && FormValues.value.included_url.substr(0,4) != 'http') {
+          FormValues.value.included_url = 'https://' + FormValues.value.included_url
+        }
 
         FormValues.value.content = `<div class="custom_html_in_pages">` + FormValues.value.content + `</div>`
         LocalStorage.set(FormValues.value.included_url, FormValues.value)
