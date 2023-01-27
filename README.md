@@ -51,4 +51,4 @@ See [Configuring quasar.conf.js](https://quasar.dev/quasar-cli/quasar-conf-js).
 
 ### 🔖 License
 
-This software is licensed under the [MIT](https://github.com/codeeshop-oc/custom-html-in-pages/blob/main/LICENSE).
+This software is licensed under the [MIT](../main/LICENSE)
