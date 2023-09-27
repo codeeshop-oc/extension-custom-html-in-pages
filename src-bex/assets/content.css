@@ -2,3 +2,7 @@
 .target-some-header-class {
   margin-top: 62px;
 }
+
+.bex-highlight {
+    background-color: red;
+}

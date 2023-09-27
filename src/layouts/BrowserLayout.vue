@@ -2,9 +2,7 @@
   <q-layout view="hhh lpr fFf">
     <q-header elevated>
       <q-toolbar>
-        <q-toolbar-title>
-          {{$t('product_name')}}
-        </q-toolbar-title>
+        <q-toolbar-title> Custom HTML in Pages </q-toolbar-title>
         <div>v1.0</div>
       </q-toolbar>
     </q-header>
@@ -17,9 +15,8 @@
 <script>
 export default {
   name: 'BrowserLayout',
-  data () {
-    return {
-    }
-  }
-}
+  data() {
+    return {};
+  },
+};
 </script>

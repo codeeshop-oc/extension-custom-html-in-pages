@@ -4,5 +4,5 @@
 export default {
   product_name: 'Custom HTML in Pages',
   failed: 'Action failed',
-  success: 'Action was successful'
+  success: 'Action was successful',
 };
